@@ -188,7 +188,7 @@ function validForm(){
 		return false;
 
 	if(document.form.rt_ssid.value == "")
-		document.form.rt_ssid.value = "ASUS";
+		document.form.rt_ssid.value = "Padavan_newifi";
 
 	if(document.form.rt_wep_x.value != "0")
 		if(!validate_wlphrase('WLANConfig11b', 'rt_phrase_x', document.form.rt_phrase_x))

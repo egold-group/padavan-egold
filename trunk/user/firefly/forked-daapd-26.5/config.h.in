@@ -1,0 +1,341 @@
+/* config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* define if antlr3 C runtime uses new input routines */
+#undef ANTLR3C_NEW_INPUT
+
+/* Define to 1 to enable Chromecast support */
+#undef CHROMECAST
+
+/* Define to 1 to enable DB profiling support */
+#undef DB_PROFILE
+
+/* Define to 1 to build with ALSA support */
+#undef HAVE_ALSA
+
+/* Define to 1 to build with Avahi mDNS */
+#undef HAVE_AVAHI
+
+/* Define to 1 if have clock_gettime function */
+#undef HAVE_CLOCK_GETTIME
+
+/* Define to 1 if you have the declaration of
+   `avcodec_parameters_from_context', and to 0 if you don't. */
+#undef HAVE_DECL_AVCODEC_PARAMETERS_FROM_CONTEXT
+
+/* Define to 1 if you have the declaration of `avcodec_send_packet', and to 0
+   if you don't. */
+#undef HAVE_DECL_AVCODEC_SEND_PACKET
+
+/* Define to 1 if you have the declaration of `avfilter_graph_parse_ptr', and
+   to 0 if you don't. */
+#undef HAVE_DECL_AVFILTER_GRAPH_PARSE_PTR
+
+/* Define to 1 if you have the declaration of
+   `avformat_alloc_output_context2', and to 0 if you don't. */
+#undef HAVE_DECL_AVFORMAT_ALLOC_OUTPUT_CONTEXT2
+
+/* Define to 1 if you have the declaration of `avformat_network_init', and to
+   0 if you don't. */
+#undef HAVE_DECL_AVFORMAT_NETWORK_INIT
+
+/* Define to 1 if you have the declaration of `av_buffersink_get_frame', and
+   to 0 if you don't. */
+#undef HAVE_DECL_AV_BUFFERSINK_GET_FRAME
+
+/* Define to 1 if you have the declaration of `av_buffersrc_add_frame_flags',
+   and to 0 if you don't. */
+#undef HAVE_DECL_AV_BUFFERSRC_ADD_FRAME_FLAGS
+
+/* Define to 1 if you have the declaration of `av_frame_alloc', and to 0 if
+   you don't. */
+#undef HAVE_DECL_AV_FRAME_ALLOC
+
+/* Define to 1 if you have the declaration of
+   `av_frame_get_best_effort_timestamp', and to 0 if you don't. */
+#undef HAVE_DECL_AV_FRAME_GET_BEST_EFFORT_TIMESTAMP
+
+/* Define to 1 if you have the declaration of `av_image_fill_arrays', and to 0
+   if you don't. */
+#undef HAVE_DECL_AV_IMAGE_FILL_ARRAYS
+
+/* Define to 1 if you have the declaration of `av_image_get_buffer_size', and
+   to 0 if you don't. */
+#undef HAVE_DECL_AV_IMAGE_GET_BUFFER_SIZE
+
+/* Define to 1 if you have the declaration of `av_packet_rescale_ts', and to 0
+   if you don't. */
+#undef HAVE_DECL_AV_PACKET_RESCALE_TS
+
+/* Define to 1 if you have the declaration of `av_packet_unref', and to 0 if
+   you don't. */
+#undef HAVE_DECL_AV_PACKET_UNREF
+
+/* Define to 1 if you have the declaration of `av_version_info', and to 0 if
+   you don't. */
+#undef HAVE_DECL_AV_VERSION_INFO
+
+/* Define to 1 if you have the <dirent.h> header file. */
+#undef HAVE_DIRENT_H
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* Define to 1 if you have the <endian.h> header file. */
+#undef HAVE_ENDIAN_H
+
+/* Define to 1 if you have the `eventfd' function. */
+#undef HAVE_EVENTFD
+
+/* Define to 1 if you have ffmpeg (not libav) */
+#undef HAVE_FFMPEG
+
+/* Define to 1 if you have the <getopt.h> header file. */
+#undef HAVE_GETOPT_H
+
+/* Define if you have the iconv() function and it works. */
+#undef HAVE_ICONV
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define to 1 if you have json-c < 0.11 */
+#undef HAVE_JSON_C_OLD
+
+/* Define to 1 if you have the `kqueue' function. */
+#undef HAVE_KQUEUE
+
+/* Define to 1 if you have the <libavutil/channel_layout.h> header file. */
+#undef HAVE_LIBAVUTIL_CHANNEL_LAYOUT_H
+
+/* Define to 1 if you have the <libavutil/mathematics.h> header file. */
+#undef HAVE_LIBAVUTIL_MATHEMATICS_H
+
+/* Define to 1 to build with libcurl support */
+#undef HAVE_LIBCURL
+
+/* Define to 1 if you have libevent 2 (<2.1.4) */
+#undef HAVE_LIBEVENT2_OLD
+
+/* Define to 1 to build with libevent_pthreads support */
+#undef HAVE_LIBEVENT_PTHREADS
+
+/* Define to 1 if you have the <libkern/OSByteOrder.h> header file. */
+#undef HAVE_LIBKERN_OSBYTEORDER_H
+
+/* Define to 1 to build with libplist support */
+#undef HAVE_LIBPLIST
+
+/* Define to 1 to build with Pulseaudio support */
+#undef HAVE_LIBPULSE
+
+/* Define to 1 to build with libsodium support */
+#undef HAVE_LIBSODIUM
+
+/* Define to 1 to build with libwebsockets support */
+#undef HAVE_LIBWEBSOCKETS
+
+/* Define to 1 if mach kernel clock replacement available */
+#undef HAVE_MACH_CLOCK
+
+/* Define to 1 if mach kernel clock replacement available */
+#undef HAVE_MACH_TIMER
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* Define to 1 if you have the `mxmlGetFirstChild' function. */
+#undef HAVE_MXMLGETFIRSTCHILD
+
+/* Define to 1 if you have the `mxmlGetOpaque' function. */
+#undef HAVE_MXMLGETOPAQUE
+
+/* Define to 1 if you have the `mxmlGetText' function. */
+#undef HAVE_MXMLGETTEXT
+
+/* Define to 1 if you have the `mxmlGetType' function. */
+#undef HAVE_MXMLGETTYPE
+
+/* Define to 1 if you have the `pa_threaded_mainloop_set_name' function. */
+#undef HAVE_PA_THREADED_MAINLOOP_SET_NAME
+
+/* Define to 1 if you have the `pipe2' function. */
+#undef HAVE_PIPE2
+
+/* Define to 1 if you have the `posix_fadvise' function. */
+#undef HAVE_POSIX_FADVISE
+
+/* Define to 1 if you have libprotobuf < 1.0.0 */
+#undef HAVE_PROTOBUF_OLD
+
+/* Define to 1 if you have the <pthread_np.h> header file. */
+#undef HAVE_PTHREAD_NP_H
+
+/* Define to 1 if you have pthread_setname_np */
+#undef HAVE_PTHREAD_SETNAME_NP
+
+/* Define to 1 if you have the `pthread_set_name_np' function. */
+#undef HAVE_PTHREAD_SET_NAME_NP
+
+/* Define to 1 if you have the <regex.h> header file. */
+#undef HAVE_REGEX_H
+
+/* Define to 1 if you have the `signalfd' function. */
+#undef HAVE_SIGNALFD
+
+/* Define to 1 if you have the <libspotify/api.h> header file. */
+#undef HAVE_SPOTIFY_H
+
+/* Define to 1 if you have the `sqlite3_expanded_sql' function. */
+#undef HAVE_SQLITE3_EXPANDED_SQL
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the `strptime' function. */
+#undef HAVE_STRPTIME
+
+/* Define to 1 if you have the `strtok_r' function. */
+#undef HAVE_STRTOK_R
+
+/* Define to 1 if you have the <sys/endian.h> header file. */
+#undef HAVE_SYS_ENDIAN_H
+
+/* Define to 1 if you have the <sys/param.h> header file. */
+#undef HAVE_SYS_PARAM_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <sys/wait.h> header file. */
+#undef HAVE_SYS_WAIT_H
+
+/* Define to 1 if you have timerfd */
+#undef HAVE_TIMERFD
+
+/* Define to 1 if have timer_settime function */
+#undef HAVE_TIMER_SETTIME
+
+/* Define to 1 if you have the <time.h> header file. */
+#undef HAVE_TIME_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Define as const if the declaration of iconv() needs const. */
+#undef ICONV_CONST
+
+/* Define to 1 to enable iTunes Music Library XML support */
+#undef ITUNES
+
+/* Define to 1 to enable LastFM support */
+#undef LASTFM
+
+/* Define to the sub-directory where libtool stores uninstalled libraries. */
+#undef LT_OBJDIR
+
+/* Define to 1 to enable MPD client protocol support */
+#undef MPD
+
+/* Define to 1 if your C compiler doesn't accept -c and -o together. */
+#undef NO_MINUS_C_MINUS_O
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Define to 1 to enable Apple TV device verification */
+#undef RAOP_VERIFICATION
+
+/* The size of `void *', as computed by sizeof. */
+#undef SIZEOF_VOID_P
+
+/* Define to 1 to enable Spotify support */
+#undef SPOTIFY
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+/* Define to 1 to enable use of ffmpeg/libav API with avcodec_send_packet()
+   and family */
+#undef USE_AVCODEC_SEND
+
+/* Enable extensions on AIX 3, Interix.  */
+#ifndef _ALL_SOURCE
+# undef _ALL_SOURCE
+#endif
+/* Enable GNU extensions on systems that have them.  */
+#ifndef _GNU_SOURCE
+# undef _GNU_SOURCE
+#endif
+/* Enable threading extensions on Solaris.  */
+#ifndef _POSIX_PTHREAD_SEMANTICS
+# undef _POSIX_PTHREAD_SEMANTICS
+#endif
+/* Enable extensions on HP NonStop.  */
+#ifndef _TANDEM_SOURCE
+# undef _TANDEM_SOURCE
+#endif
+/* Enable general extensions on Solaris.  */
+#ifndef __EXTENSIONS__
+# undef __EXTENSIONS__
+#endif
+
+
+/* Version number of package */
+#undef VERSION
+
+/* Define to 1 to enable Include default web interface */
+#undef WEBINTERFACE
+
+/* Enable large inode numbers on Mac OS X 10.5.  */
+#ifndef _DARWIN_USE_64_BIT_INODE
+# define _DARWIN_USE_64_BIT_INODE 1
+#endif
+
+/* Number of bits in a file offset, on hosts where this is settable. */
+#undef _FILE_OFFSET_BITS
+
+/* Define for large files, on AIX-style hosts. */
+#undef _LARGE_FILES
+
+/* Define to 1 if on MINIX. */
+#undef _MINIX
+
+/* Define to 2 if the system does not provide POSIX.1 features except with
+   this defined. */
+#undef _POSIX_1_SOURCE
+
+/* Define to 1 if you need to in order for `stat' and other things to work. */
+#undef _POSIX_SOURCE
+
+/* Define to `long int' if <sys/types.h> does not define. */
+#undef off_t

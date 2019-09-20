@@ -1,4 +1,4 @@
-SRC_NAME=libevent-2.1.X
+SRC_NAME=libevent-2.1.11-stable
 
 all: config_test
 	$(MAKE) -j$(HOST_NCPU) -C $(SRC_NAME)

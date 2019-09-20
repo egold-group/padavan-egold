@@ -195,7 +195,7 @@ function validForm(){
 		return false;
 
 	if(document.form.wl_ssid.value == "")
-		document.form.wl_ssid.value = "ASUS_5G";
+		document.form.wl_ssid.value = "Padavan_newifi_5G";
 
 	if(document.form.wl_wep_x.value != "0")
 		if(!validate_wlphrase('WLANConfig11a', 'wl_phrase_x', document.form.wl_phrase_x))

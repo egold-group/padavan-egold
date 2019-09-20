@@ -9,6 +9,7 @@
 #  All Rights Reserved.
 #
 
+ACLOCAL_AMFLAGS = -I m4
 EXTRA_DIST =
 AM_CPPFLAGS = -I$(top_srcdir)/include -I$(top_srcdir)
 LDADD = src/liblzo2.la

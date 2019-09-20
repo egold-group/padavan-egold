@@ -11,7 +11,11 @@ SVC_PRIORITY=3
 
 SVC_NAME="Aria2"
 SVC_PATH="/usr/bin/aria2c"
-DIR_LINK="/mnt/aria"
+#DIR_LINK="/media/aria"
+if [ ! -d "/tmp/aria" ]; then            
+	  mkdir /tmp/aria                        
+  fi                                       
+DIR_LINK="/tmp/aria"
 
 func_start()
 {
@@ -62,6 +66,7 @@ rpc-passwd=$aria_pass
 ### Common
 dir=$DIR_DL1
 max-download-limit=0
+max-concurrent-downloads=5
 max-overall-download-limit=6M
 disable-ipv6=true
 
@@ -87,6 +92,7 @@ seed-ratio=1.5
 #seed-time=60
 max-upload-limit=0
 max-overall-upload-limit=5M
+bt-tracker=https://opentracker.co:443/announce
 
 ### FTP/HTTP
 ftp-pasv=true
@@ -104,7 +110,7 @@ check-certificate=false
 
 ### Log
 log=$DIR_CFG/aria2.log
-log-level=notice
+log-level=error
 
 EOF
 	fi

@@ -1,4 +1,4 @@
-SRC_NAME=libusb-1.0.X
+SRC_NAME=libusb-1.0.23
 
 all: config_test
 	$(MAKE) -j$(HOST_NCPU) -C $(SRC_NAME)

@@ -1,5 +1,5 @@
 ifndef CC
-CC=gcc
+CC=ccache gcc
 endif
 
 ifndef CFLAGS

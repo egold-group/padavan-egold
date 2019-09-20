@@ -1,11 +1,12 @@
-SRC_NAME=miniupnpd-2.X
+SRC_NAME=miniupnpd-2.1
 
 # reference to iptables package
-IPT_VERSION:=iptables-1.4.16.3
+IPT_VERSION:=iptables-1.4.21
 
 # disable support IPv6 yet, because no profit w/o IGDv2
 # e.g. Windows not supported IGDv2 and UPnP not worked
 ENABLE_IPV6:=0
+TEST=0
 
 IPTABLESPATH=$(ROOTDIR)/user/iptables/$(IPT_VERSION)
 

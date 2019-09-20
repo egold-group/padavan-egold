@@ -1,0 +1,3 @@
+RSP2SQL.c : RSP2SQL.g  ./RSP.tokens
+./RSP2SQL.tokens : RSP2SQL.g
+RSP2SQL.h : RSP2SQL.g  ./RSP.tokens

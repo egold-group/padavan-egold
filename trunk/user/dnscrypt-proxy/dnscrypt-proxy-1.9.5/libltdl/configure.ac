@@ -44,7 +44,7 @@ AC_PREREQ(2.59)dnl We use AS_HELP_STRING
 AC_INIT([libltdl], [2.4.3a], [bug-libtool@gnu.org])
 AC_CONFIG_HEADERS([config.h:config-h.in])
 AC_CONFIG_SRCDIR([ltdl.c])
-AC_CONFIG_AUX_DIR([config])
+AC_CONFIG_AUX_DIR([..])
 LT_CONFIG_LTDL_DIR([.]) # I am me!
 
 
@@ -54,7 +54,7 @@ LT_CONFIG_LTDL_DIR([.]) # I am me!
 
 AM_INIT_AUTOMAKE([gnu subdir-objects])
 m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
-AM_MAINTAINER_MODE([disable])
+
 
 ## ------------------------------- ##
 ## Libtool specific configuration. ##

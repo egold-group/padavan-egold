@@ -1,4 +1,4 @@
-SRC_NAME=minidlna-1.x.x
+SRC_NAME=minidlna-1.2.1
 
 DLNA_CFLAGS  += -ffunction-sections -fdata-sections -fvisibility=hidden
 DLNA_CFLAGS  += -Os -Wall -g -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64
@@ -7,7 +7,7 @@ DLNA_CFLAGS  += -I$(STAGEDIR)/include
 DLNA_LDFLAGS += -Wl,--gc-sections
 DLNA_LDFLAGS += -L$(STAGEDIR)/lib
 
-DLNA_LIBS += -ldl -lm -lpthread -lz -lexif -ljpeg -lsqlite3 -lid3tag -lFLAC -lvorbis -logg -lavformat -lavcodec -lavutil
+DLNA_LIBS += -ldl -lbz2 -lm -lpthread -lz -lexif -ljpeg -lsqlite3 -lid3tag -lFLAC -lvorbis -logg -lavformat -lavcodec -lavutil
 
 THISDIR = $(shell pwd)
 

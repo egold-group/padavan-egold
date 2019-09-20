@@ -2,7 +2,7 @@
 /* support/include/config.h.in.  Generated from configure.ac by autoheader.  */
 
 /* Define to 1 if the `closedir' function returns void instead of `int'. */
-/* #undef CLOSEDIR_VOID */
+#define CLOSEDIR_VOID 1
 
 /* Define to one of `_getb67', `GETB67', `getb67' for Cray-2 and Cray-YMP
    systems. This function is required for `alloca.c' support on those systems.
@@ -42,7 +42,7 @@
 /* #undef HAVE_BSD_SIGNALS */
 
 /* Define to 1 if you have the <com_err.h> header file. */
-#define HAVE_COM_ERR_H 1
+/* #undef HAVE_COM_ERR_H */
 
 /* Define to 1 if you have the <dirent.h> header file, and it defines `DIR'.
    */
@@ -58,10 +58,10 @@
 #define HAVE_DUP2 1
 
 /* Define to 1 if you have the <et/com_err.h> header file. */
-#define HAVE_ET_COM_ERR_H 1
+/* #undef HAVE_ET_COM_ERR_H */
 
 /* Define to 1 if you have the <event.h> header file. */
-#define HAVE_EVENT_H 1
+/* #undef HAVE_EVENT_H */
 
 /* Define to 1 if you have the <fcntl.h> header file. */
 #define HAVE_FCNTL_H 1
@@ -79,7 +79,7 @@
 #define HAVE_GETCWD 1
 
 /* Define to 1 if your system has a working `getgroups' function. */
-#define HAVE_GETGROUPS 1
+/* #undef HAVE_GETGROUPS */
 
 /* Define to 1 if you have the `gethostbyaddr' function. */
 #define HAVE_GETHOSTBYADDR 1
@@ -106,11 +106,11 @@
 #define HAVE_GETTIMEOFDAY 1
 
 /* Define this if the Kerberos GSS library supports gss_krb5_ccache_name */
-#define HAVE_GSS_KRB5_CCACHE_NAME 1
+/* #undef HAVE_GSS_KRB5_CCACHE_NAME */
 
 /* Define this if the Kerberos GSS library supports
    gss_krb5_free_lucid_sec_context */
-#define HAVE_GSS_KRB5_FREE_LUCID_SEC_CONTEXT 1
+/* #undef HAVE_GSS_KRB5_FREE_LUCID_SEC_CONTEXT */
 
 /* Define to 1 if you have the `hasmntopt' function. */
 #define HAVE_HASMNTOPT 1
@@ -125,26 +125,26 @@
 #define HAVE_INET_NTOA 1
 
 /* Define to 1 if you have the `innetgr' function. */
-#define HAVE_INNETGR 1
+/* #undef HAVE_INNETGR */
 
 /* Define to 1 if you have the <inttypes.h> header file. */
 #define HAVE_INTTYPES_H 1
 
 /* Define to 1 if you have the <keyutils.h> header file. */
-#define HAVE_KEYUTILS_H 1
+/* #undef HAVE_KEYUTILS_H */
 
 /* Define this if you have MIT Kerberos libraries */
-#define HAVE_KRB5 1
+/* #undef HAVE_KRB5 */
 
 /* Define this if the function krb5_get_error_message is available */
-#define HAVE_KRB5_GET_ERROR_MESSAGE 1
+/* #undef HAVE_KRB5_GET_ERROR_MESSAGE */
 
 /* Define this if the function krb5_get_init_creds_opt_set_addressless is
    available */
 /* #undef HAVE_KRB5_GET_INIT_CREDS_OPT_SET_ADDRESSLESS */
 
 /* Define to 1 if you have the <libgen.h> header file. */
-#define HAVE_LIBGEN_H 1
+/* #undef HAVE_LIBGEN_H */
 
 /* Define to 1 if you have the `gssglue' library (-lgssglue). */
 /* #undef HAVE_LIBGSSGLUE */
@@ -153,24 +153,24 @@
 #define HAVE_LIBINTL_H 1
 
 /* Define to 1 if you have the <libio.h> header file. */
-#define HAVE_LIBIO_H 1
+/* #undef HAVE_LIBIO_H */
 
 /* Define to 1 if you have and wish to use libtirpc. */
 #define HAVE_LIBTIRPC 1
 
 /* tcp-wrapper */
-#define HAVE_LIBWRAP 1
+/* #undef HAVE_LIBWRAP */
 
 /* Define to 1 if you have the <limits.h> header file. */
 #define HAVE_LIMITS_H 1
 
 /* Define to 1 if `lstat' has the bug that it succeeds when given the
    zero-length file name argument. */
-/* #undef HAVE_LSTAT_EMPTY_STRING_BUG */
+#define HAVE_LSTAT_EMPTY_STRING_BUG 1
 
 /* Define this if the Kerberos GSS library supports
    gss_krb5_export_lucid_sec_context */
-#define HAVE_LUCID_CONTEXT_SUPPORT 1
+/* #undef HAVE_LUCID_CONTEXT_SUPPORT */
 
 /* Define to 1 if you have the <malloc.h> header file. */
 #define HAVE_MALLOC_H 1
@@ -194,13 +194,13 @@
 #define HAVE_NETINET_IN_H 1
 
 /* Define to 1 if you have the `nfs4_set_debug' function. */
-#define HAVE_NFS4_SET_DEBUG 1
+/* #undef HAVE_NFS4_SET_DEBUG */
 
 /* Define to 1 if you have the <nfsidmap.h> header file. */
-#define HAVE_NFSIDMAP_H 1
+/* #undef HAVE_NFSIDMAP_H */
 
 /* Define to 1 if you have the <nfs-plugin.h> header file. */
-#define HAVE_NFS_PLUGIN_H 1
+/* #undef HAVE_NFS_PLUGIN_H */
 
 /* Define to 1 if you have the `pathconf' function. */
 #define HAVE_PATHCONF 1
@@ -222,7 +222,7 @@
 
 /* Define this if the Kerberos GSS library supports
    gss_krb5_set_allowable_enctypes */
-#define HAVE_SET_ALLOWABLE_ENCTYPES 1
+/* #undef HAVE_SET_ALLOWABLE_ENCTYPES */
 
 /* Define to 1 if you have the `sigprocmask' function. */
 #define HAVE_SIGPROCMASK 1
@@ -231,11 +231,11 @@
 #define HAVE_SOCKET 1
 
 /* Define to 1 if you have the <sqlite3.h> header file. */
-#define HAVE_SQLITE3_H 1
+/* #undef HAVE_SQLITE3_H */
 
 /* Define to 1 if `stat' has the bug that it succeeds when given the
    zero-length file name argument. */
-/* #undef HAVE_STAT_EMPTY_STRING_BUG */
+#define HAVE_STAT_EMPTY_STRING_BUG 1
 
 /* Define to 1 if you have the <stdint.h> header file. */
 #define HAVE_STDINT_H 1
@@ -274,7 +274,7 @@
 #define HAVE_SYSLOG_H 1
 
 /* Define to 1 if you have the <sys/capability.h> header file. */
-#define HAVE_SYS_CAPABILITY_H 1
+/* #undef HAVE_SYS_CAPABILITY_H */
 
 /* Define to 1 if you have the <sys/dir.h> header file, and it defines `DIR'.
    */
@@ -284,7 +284,7 @@
 #define HAVE_SYS_FILE_H 1
 
 /* Define to 1 if you have the <sys/inotify.h> header file. */
-#define HAVE_SYS_INOTIFY_H 1
+/* #undef HAVE_SYS_INOTIFY_H */
 
 /* Define to 1 if you have the <sys/ioctl.h> header file. */
 #define HAVE_SYS_IOCTL_H 1
@@ -318,7 +318,7 @@
 #define HAVE_SYS_VFS_H 1
 
 /* tcp-wrapper */
-#define HAVE_TCP_WRAPPER 1
+/* #undef HAVE_TCP_WRAPPER */
 
 /* Define to 1 if you have the <unistd.h> header file. */
 #define HAVE_UNISTD_H 1
@@ -342,17 +342,16 @@
 /* #undef IPV6_SUPPORTED */
 
 /* Define this as the Kerberos version number */
-#define KRB5_VERSION 1103
+/* #undef KRB5_VERSION */
 
 /* tcp-wrapper */
-#define LIBWRAP 1
+/* #undef LIBWRAP */
 
 /* Define to 1 if `lstat' dereferences a symlink specified with a trailing
    slash. */
-#define LSTAT_FOLLOWS_SLASHED_SYMLINK 1
+/* #undef LSTAT_FOLLOWS_SLASHED_SYMLINK */
 
-/* Define to the sub-directory in which libtool stores uninstalled libraries.
-   */
+/* Define to the sub-directory where libtool stores uninstalled libraries. */
 #define LT_OBJDIR ".libs/"
 
 /* Define to 1 if `major', `minor', and `makedev' are declared in <mkdev.h>.
@@ -372,9 +371,6 @@
 /* This defines the location of the NFS state files. Warning: this must match
    definitions in config.mk! */
 #define NFS_STATEDIR "/var/lib/nfs"
-
-/* Define to 1 if your C compiler doesn't accept -c and -o together. */
-/* #undef NO_MINUS_C_MINUS_O */
 
 /* Define this to the pathname where statd keeps its state file */
 #define NSM_DEFAULT_STATEDIR "/var/lib/nfs"
@@ -416,13 +412,13 @@
 #define SIZEOF_INT 4
 
 /* The size of `long', as computed by sizeof. */
-#define SIZEOF_LONG 8
+#define SIZEOF_LONG 4
 
 /* The size of `short', as computed by sizeof. */
 #define SIZEOF_SHORT 2
 
 /* The size of `size_t', as computed by sizeof. */
-#define SIZEOF_SIZE_T 8
+#define SIZEOF_SIZE_T 4
 
 /* The size of `socklen_t', as computed by sizeof. */
 #define SIZEOF_SOCKLEN_T 4
@@ -448,7 +444,7 @@
 /* #undef TM_IN_SYS_TIME */
 
 /* Define if you want to use blkid to find uuid of filesystems */
-#define USE_BLKID 1
+/* #undef USE_BLKID */
 
 /* Define this if the private function, gss_krb5_cache_name, must be used to
    tell the Kerberos library which credentials cache to use. Otherwise, this
@@ -464,7 +460,7 @@
 #endif
 
 /* Number of bits in a file offset, on hosts where this is settable. */
-/* #undef _FILE_OFFSET_BITS */
+#define _FILE_OFFSET_BITS 64
 
 /* Define for large files, on AIX-style hosts. */
 /* #undef _LARGE_FILES */

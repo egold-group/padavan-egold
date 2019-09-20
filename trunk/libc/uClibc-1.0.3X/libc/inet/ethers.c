@@ -32,11 +32,11 @@ static const char *__ether_line(const char *line, struct ether_addr *addr)
 	if (!res)
 		return NULL;
 
-	while (*line && (*line != '\n') && (*line != ' ') && (*line != '\t'))
+	while (*line && (*line != ' ') && (*line != '\t'))
 		line++;
-	while (*line && (*line != '\n') && ((*line == ' ') || (*line == '\t')))
+	while (*line && ((*line == ' ')	|| (*line == '\t')))
 		line++;
-	return (*line && (*line != '\n')) ? line : NULL;
+	return (*line) ? line : NULL;
 }
 
 /*
@@ -45,7 +45,9 @@ static const char *__ether_line(const char *line, struct ether_addr *addr)
  */
 static const char *__ether_line_w(char *line, struct ether_addr *addr)
 {
-	char *end = strpbrk(line, "#\n");
+	char *end = strchr(line, '#');
+	if (!end)
+		end = strchr(line, '\n');
 	if (end)
 		*end = '\0';
 	return __ether_line(line, addr);

@@ -40,9 +40,6 @@
 /* Define if /dev/poll is available */
 #undef HAVE_DEVPOLL
 
-/* Define to 1 if you have the <dlfcn.h> header file. */
-#undef HAVE_DLFCN_H
-
 /* Define if your system supports the epoll system calls */
 #undef HAVE_EPOLL
 
@@ -349,8 +346,8 @@
 /* Define to 1 if you have the <zlib.h> header file. */
 #undef HAVE_ZLIB_H
 
-/* Define to the sub-directory where libtool stores uninstalled libraries. */
-#undef LT_OBJDIR
+/* Define to 1 if your C compiler doesn't accept -c and -o together. */
+#undef NO_MINUS_C_MINUS_O
 
 /* Numeric representation of the version */
 #undef NUMERIC_VERSION

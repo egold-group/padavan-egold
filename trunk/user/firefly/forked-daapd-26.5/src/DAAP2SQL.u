@@ -1,0 +1,3 @@
+DAAP2SQL.c : DAAP2SQL.g  ./DAAP.tokens
+./DAAP2SQL.tokens : DAAP2SQL.g
+DAAP2SQL.h : DAAP2SQL.g  ./DAAP.tokens

@@ -1,0 +1,5 @@
+SMARTPLParser.c : SMARTPL.g 
+./SMARTPL.tokens : SMARTPL.g
+SMARTPLParser.h : SMARTPL.g 
+SMARTPLLexer.c : SMARTPL.g 
+SMARTPLLexer.h : SMARTPL.g 

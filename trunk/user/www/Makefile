@@ -81,6 +81,10 @@ ifeq ($(CONFIG_FIRMWARE_INCLUDE_LANG_UK),y)
 	echo "LANG_UK=Українська" >> $(ROMFS_DIR)/www/EN.header
 	cp dict/UK.dict $(ROMFS_DIR)/www
 endif
+ifeq ($(CONFIG_FIRMWARE_INCLUDE_LANG_CN),y)
+	echo "LANG_CN=简体中文" >> $(ROMFS_DIR)/www/EN.header
+	cp dict/CN.dict $(ROMFS_DIR)/www
+endif	
 	cat $(ROMFS_DIR)/www/EN.header dict/EN.footer > $(ROMFS_DIR)/www/EN.dict
 	sed -i 's/^Web_Title=.*/Web_Title=ZVMODELVZ Wireless Router/' $(ROMFS_DIR)/www/*.dict
 	sed $(BOARD_PATTERN) -i $(ROMFS_DIR)/www/*.dict

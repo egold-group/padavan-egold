@@ -1,4 +1,4 @@
-SRC_NAME=libsodium-1.0.XX
+SRC_NAME=libsodium-1.0.18
 
 all: config_test
 	$(MAKE) -j$(HOST_NCPU) -C $(SRC_NAME)

@@ -1,4 +1,4 @@
-SRC_NAME=ipset-6.x
+SRC_NAME=ipset-6.29
 
 THISDIR = $(shell pwd)
 

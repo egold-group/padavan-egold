@@ -1,68 +1,73 @@
-strlcat.o: strlcat.c /usr/include/sys/types.h /usr/include/features.h \
- /usr/include/stdc-predef.h /usr/include/sys/cdefs.h \
- /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
- /usr/include/gnu/stubs-64.h /usr/include/bits/types.h \
- /usr/include/bits/typesizes.h /usr/include/time.h \
- /usr/lib/gcc/x86_64-redhat-linux/4.7.2/include/stddef.h \
- /usr/include/endian.h /usr/include/bits/endian.h \
- /usr/include/bits/byteswap.h /usr/include/bits/byteswap-16.h \
- /usr/include/sys/select.h /usr/include/bits/select.h \
- /usr/include/bits/sigset.h /usr/include/bits/time.h \
- /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
- /usr/include/string.h /usr/include/xlocale.h /usr/include/bits/string.h \
- /usr/include/bits/string2.h /usr/include/stdlib.h \
+strlcat.o: strlcat.c \
+ /tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/sys/types.h \
+ /tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/features.h \
+ /tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/bits/uClibc_config.h \
+ /tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/sys/cdefs.h \
+ /tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/bits/types.h \
+ /tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/bits/wordsize.h \
+ /tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/bits/typesizes.h \
+ /tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/time.h \
+ /tools/release/mipsel-linux-uclibc7/lib/gcc/mipsel-buildroot-linux-uclibc/7.4.0/include/stddef.h \
+ /tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/endian.h \
+ /tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/bits/endian.h \
+ /tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/byteswap.h \
+ /tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/bits/byteswap.h \
+ /tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/bits/byteswap-common.h \
+ /tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/bits/byteswap-16.h \
+ /tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/sys/select.h \
+ /tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/bits/select.h \
+ /tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/bits/sigset.h \
+ /tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/bits/time.h \
+ /tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/sys/sysmacros.h \
+ /tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/bits/pthreadtypes.h \
+ /tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/sgidefs.h \
+ /tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/string.h \
  ../../support/include/config.h
 
-/usr/include/sys/types.h:
+/tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/sys/types.h:
 
-/usr/include/features.h:
+/tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/features.h:
 
-/usr/include/stdc-predef.h:
+/tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/bits/uClibc_config.h:
 
-/usr/include/sys/cdefs.h:
+/tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/sys/cdefs.h:
 
-/usr/include/bits/wordsize.h:
+/tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/bits/types.h:
 
-/usr/include/gnu/stubs.h:
+/tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/bits/wordsize.h:
 
-/usr/include/gnu/stubs-64.h:
+/tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/bits/typesizes.h:
 
-/usr/include/bits/types.h:
+/tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/time.h:
 
-/usr/include/bits/typesizes.h:
+/tools/release/mipsel-linux-uclibc7/lib/gcc/mipsel-buildroot-linux-uclibc/7.4.0/include/stddef.h:
 
-/usr/include/time.h:
+/tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/endian.h:
 
-/usr/lib/gcc/x86_64-redhat-linux/4.7.2/include/stddef.h:
+/tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/bits/endian.h:
 
-/usr/include/endian.h:
+/tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/byteswap.h:
 
-/usr/include/bits/endian.h:
+/tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/bits/byteswap.h:
 
-/usr/include/bits/byteswap.h:
+/tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/bits/byteswap-common.h:
 
-/usr/include/bits/byteswap-16.h:
+/tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/bits/byteswap-16.h:
 
-/usr/include/sys/select.h:
+/tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/sys/select.h:
 
-/usr/include/bits/select.h:
+/tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/bits/select.h:
 
-/usr/include/bits/sigset.h:
+/tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/bits/sigset.h:
 
-/usr/include/bits/time.h:
+/tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/bits/time.h:
 
-/usr/include/sys/sysmacros.h:
+/tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/sys/sysmacros.h:
 
-/usr/include/bits/pthreadtypes.h:
+/tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/bits/pthreadtypes.h:
 
-/usr/include/string.h:
+/tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/sgidefs.h:
 
-/usr/include/xlocale.h:
-
-/usr/include/bits/string.h:
-
-/usr/include/bits/string2.h:
-
-/usr/include/stdlib.h:
+/tools/release/mipsel-linux-uclibc7/mipsel-buildroot-linux-uclibc/sysroot/usr/include/string.h:
 
 ../../support/include/config.h:

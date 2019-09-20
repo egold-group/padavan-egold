@@ -1,4 +1,4 @@
-SRC_NAME=parted-3.X
+SRC_NAME=parted-3.2
 
 CFLAGS += -ffunction-sections -fdata-sections -fvisibility=hidden
 LDFLAGS += -Wl,--gc-sections

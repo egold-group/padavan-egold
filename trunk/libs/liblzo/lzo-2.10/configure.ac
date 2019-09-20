@@ -36,6 +36,7 @@ All Rights Reserved.
 This configure script may be copied, distributed and modified under the
 terms of the GNU General Public License; see COPYING for more details.])
 
+AC_CONFIG_MACRO_DIR([m4])
 AC_PREREQ(2.69)
 AC_INIT([LZO],[2.10],[markus@oberhumer.com],[lzo],[http://www.oberhumer.com/opensource/lzo/])
 AC_MSG_NOTICE([Configuring LZO $PACKAGE_VERSION])
@@ -68,7 +69,7 @@ AC_C_CONST
 mfx_LZO_CHECK_ENDIAN
 AC_SYS_LARGEFILE
 
-AM_INIT_AUTOMAKE([1.15 gnu subdir-objects -Wall -Werror])
+AM_INIT_AUTOMAKE([1.14 gnu subdir-objects -Wall -Werror])
 AM_SILENT_RULES([yes])
 AC_CONFIG_HEADERS([config.h:config.hin])
 AH_TOP([#ifndef __LZO_AUTOCONF_CONFIG_H_INCLUDED

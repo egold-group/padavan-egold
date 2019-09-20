@@ -1,4 +1,5 @@
-SRC_NAME=mt-daapd-svn
+#SRC_NAME=mt-daapd-svn
+SRC_NAME=forked-daapd-26.5
 
 THISDIR = $(shell pwd)
 

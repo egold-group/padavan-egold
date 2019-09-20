@@ -575,8 +575,8 @@ struct nvram_pair router_defaults[] = {
 	{ "sw_mode", "1" },
 #endif
 
-	{ "telnetd", "1" },
-	{ "sshd_enable", "0" },
+	{ "telnetd", "0" },
+	{ "sshd_enable", "1" },
 	{ "sshd_enable_gp", "0" },
 	{ "wins_enable", "0" },
 #if defined (APP_TOR)

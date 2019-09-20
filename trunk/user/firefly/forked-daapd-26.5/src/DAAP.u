@@ -1,0 +1,5 @@
+DAAPParser.c : DAAP.g 
+./DAAP.tokens : DAAP.g
+DAAPParser.h : DAAP.g 
+DAAPLexer.c : DAAP.g 
+DAAPLexer.h : DAAP.g 
